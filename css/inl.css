@@ -1,0 +1,103 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.7rem;
+}
+
+.heroImage {
+    width: 100%;
+    height: 100%;
+    margin-top: 3em;
+    background-image: url(../post-it.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+
+.myList {
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 1em;
+}
+
+.linethrough {
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+li {
+    list-style: none;
+    padding: 0.7em;
+    background-color: white;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #F5F5F5;
+}
+
+.addButton {
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.7rem;
+    margin-left: 1em;
+    border: none;
+}
+
+.inputfield {
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.7rem;
+    border: none;
+}
+
+.xbutton {
+    float: right;
+}
+
+.xbutton:hover {
+    color: white;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        font-size: 0.9rem;
+    }
+
+    .heroImage {
+        height: 150vh;
+        margin-top: -3em;
+        //background-attachment: fixed;
+    }
+
+    .addButton {
+        font-size: 0.8rem;
+    }
+
+    .inputfield {
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+        padding-top: 5em;
+    }
+
+    li {
+        padding: 0.8em;
+    }
+}
